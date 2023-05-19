@@ -15,7 +15,7 @@ The register file consists of thirty-two 32-bit registers. In a single clock cyc
 To provide some values for testing and debugging, all registers are initially assigned the same value as their address number. For example, reg[10] would contain the value 00000000000000000000000000001010 and reg[31] would contain the value 11111111111111111111111111111111.
 
 <p align="center">
-  <img src="assets/regfile_top.PNG" alt="RegFile" width="80%" height="80%"/>
+  <img src="assets/regfile_top.PNG" alt="RegFile" width="50%" height="50%"/>
 </p>
 
 ### Arithmetic & Logic Unit (ALU)
@@ -32,13 +32,13 @@ The ALU receives both of its inputs from the register file and the opcode from i
 | 1101    | Input1 <b>NAND</b> Input2|
 
 <p align="center">
-  <img src="assets/alu_top.PNG" alt="ALU" width="80%" height="80%"/>
+  <img src="assets/alu_top.PNG" alt="ALU" width="50%" height="50%"/>
 </p>
 
 ## Simulation Waveforms
 
 <p align="center">
-  <img src="assets/lab6_waveform.PNG" alt="waveform" width="80%" height="80%"/>
+  <img src="assets/lab6_waveform.PNG" alt="waveform" width="100%" height="100%"/>
 </p>
 
 
